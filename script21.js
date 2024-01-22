@@ -47,11 +47,11 @@ function resolveAfter2Seconds() {
     });
   }
   
-  async function asyncCall() {
-    console.log('calling');
-    const result = await resolveAfter2Seconds();
-    console.log(result);
-    // Expected output: "resolved"
-  }
+  // async function asyncCall() {
+  //   console.log('calling');
+  //   const result = await resolveAfter2Seconds();
+  //   console.log(result);
+  //   // Expected output: "resolved"
+  // }
   
-  asyncCall();
+  // asyncCall();
